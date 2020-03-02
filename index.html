@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Julian Ruiz Form Assignment</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=PT+Serif|Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+<body>
+    <main class="main-content">
+        <form method="get" action="index.php">
+            <fieldset>
+                <legend>Form Assignment</legend>
+
+                <!--USERNAME INPUT-->
+                <div class="box">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" 
+                           id="fullname">
+                </div>
+
+                <!--EMAIL INPUT-->
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="text" 
+                          id="email">   
+                </div>
+
+                <!--MESSAGE INPUT-->
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea type="text"
+                          id="message"
+                          value="">
+                    </textarea>   
+                </div>
+
+                <!--SUBMIT BUTTON-->   
+                <div class="box">
+                    <input type="button" 
+                           value="VALIDATE FORM" 
+                           id="submit-button" 
+                           name="submit-button">
+                </div>
+            </fieldset>
+        </form>
+        <div class="correspondance"></div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
